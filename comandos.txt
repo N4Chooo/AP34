@@ -4,5 +4,6 @@
 4. grep -r -i -h quijote /home/nacho/*
 5. sed 's/Panza/barriga/g' el_quijote.txt
 6.
-7.head -c 4 el_quijote.txt
-8.head -c 4000 el_quijote.txt
+7. head -c 4 el_quijote.txt
+8. head -c 4000 el_quijote.txt
+9. sed -n "14,25p" el_quijote.txt
