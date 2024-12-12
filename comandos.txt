@@ -2,7 +2,12 @@
 2. cat el_quijote.txt | grep -v -n -i quijote
 <<<<<<< HEAD
 3. grep -r -i quijote /home/nacho/*
+<<<<<<< HEAD
 =======
 3. grep -r -i quijote /home/nacho/*
 4.grep -r -i -h quijote /home/nacho/*
+>>>>>>> quijote
+=======
+4. grep -r -i -h quijote /home/nacho/*
+5.sed 's/Panza/barriga/g' el_quijote.txt
 >>>>>>> quijote
