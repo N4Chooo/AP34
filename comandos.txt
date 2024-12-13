@@ -1,6 +1,6 @@
 1. cat el_quijote.txt | grep -c -i quijote
 2. cat el_quijote.txt | grep -v -c -i quijote
-3. grep -r -i quijote /home/nacho/*
+3. grep -c -r -i quijote /home/nacho/*
 4. grep -r -i -h quijote /home/nacho/*
 5. sed 's/Panza/barriga/g' el_quijote.txt
 6.
